@@ -1,0 +1,15 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno (contienen secretos, nunca los subas)
+.env
+.env.*
+!.env.example
+
+# Dependencias (si usas Node.js)
+/node_modules
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
